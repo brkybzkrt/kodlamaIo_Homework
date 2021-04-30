@@ -3,8 +3,8 @@ package kodlamaIo;
 public class Student extends User{
 
 
-	int educationId;
-	int countOfOwnedEducation;
+	private int educationId;
+	private int countOfOwnedEducation;
 	
 	public Student(int id, int userType, String name, String email, String password, String image, String address,
 			String contact, int educationId, int countOfOwnedEducation) 
